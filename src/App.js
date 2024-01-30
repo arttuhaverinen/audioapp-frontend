@@ -22,7 +22,7 @@ function App() {
 		baseurl = process.env.REACT_APP_BASE_URL_DEVELOPMENT;
 	}
 
-	console.log(baseurl);
+	//console.log(baseurl);
 
 	const [blob, setBlob] = useState();
 	const { status, startRecording, stopRecording, mediaBlobUrl } =

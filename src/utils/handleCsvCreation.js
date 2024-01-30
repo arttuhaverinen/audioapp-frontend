@@ -8,9 +8,9 @@ const handleCsvCreation = (emotionsData, setCsv) => {
 	if (emotionsData) {
 		emotionsData.forEach((arr) => {
 			arr.forEach((element) => {
-				console.log(element);
+				//console.log(element);
 				for (const val in element) {
-					console.log(`${val}, ${element[val]}`);
+					//console.log(`${val}, ${element[val]}`);
 					if (element[val] > highest) {
 						highest = element[val];
 						correctClass = val;
@@ -21,7 +21,7 @@ const handleCsvCreation = (emotionsData, setCsv) => {
 				csvArr.push(correctClass);
 			});
 		});
-		console.log("csvarr", csvArr);
+		//console.log("csvarr", csvArr);
 		let headers = [
 			"File",
 			"DenseNet121_Gender",
