@@ -51,7 +51,6 @@ function App() {
 		<div className="App">
 			<div className="container">
 				<div className="div-grid">
-					{/*AUDIO UPLOADING RELATED FUNCTIONS*/}
 					<Recording
 						status={status}
 						startRecording={startRecording}
